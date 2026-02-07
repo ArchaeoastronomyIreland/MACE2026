@@ -1,3 +1,16 @@
+// GitHub Pages is case-sensitive, Windows is not.
+// The actual implementation file in this project is `assets/js/Imageoverlay.js`.
+// On Windows, `<script src="assets/js/imageoverlay.js">` works even if the file is `Imageoverlay.js`,
+// but on GitHub Pages it 404s and the Image Upload UI stops working.
+//
+// This shim keeps the existing `index.html` reference stable and loads the real script.
+(function loadCaseSensitiveImageOverlay() {
+  var s = document.createElement('script');
+  s.src = 'assets/js/Imageoverlay.js';
+  s.defer = true;
+  document.head.appendChild(s);
+})();
+
         // Global storage for overlaid images and pending georeference data
         const overlaidImagesData = {};
         const pendingGeorefData = {};
