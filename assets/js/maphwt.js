@@ -307,7 +307,6 @@ var baseLayers = {
 // Create the map
 
 var map = L.map('map', { // div id holding map
-   preferCanvas: true, // Use Canvas renderer for vector layers instead of SVG
    layers: [cartoLight], // default map - OSM Street
    worldCopyJump: true, // move markers if scrolling horizontally across new map
    minZoom: 1, // minimum zoom level, skip level 0
