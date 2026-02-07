@@ -1,0 +1,178 @@
+.leaflet-container.crosshair-cursor-enabled {
+     cursor: crosshair;
+}
+ .btn {
+     border-radius: 0px;
+}
+ .navbar-default {
+     background-color: #1c2a48;
+     border-color: #2e3951;
+}
+ .navbar-default .navbar-brand {
+     color: #fafafa;
+}
+ .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+     color: #d0d6e2;
+}
+ .navbar-default .navbar-text {
+     color: #fafafa;
+}
+ .navbar-default .navbar-nav > li > a {
+     color: #fafafa;
+}
+ .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+     color: #d0d6e2;
+}
+ .navbar-default .navbar-nav > li > .dropdown-menu {
+     background-color: #1c2a48;
+}
+ .navbar-default .navbar-nav > li > .dropdown-menu > li > a {
+     color: #fafafa;
+}
+ .navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover, .navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus {
+     color: #d0d6e2;
+     background-color: #2e3951;
+}
+ .navbar-default .navbar-nav > li > .dropdown-menu > li.divider {
+     background-color: #2e3951;
+}
+ .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+     color: #d0d6e2;
+     background-color: #2e3951;
+}
+ .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+     color: #d0d6e2;
+     background-color: #2e3951;
+}
+ .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+     color: #d0d6e2;
+     background-color: #2e3951;
+}
+ .navbar-default .navbar-toggle {
+     border-color: #2e3951;
+}
+ .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+     background-color: #2e3951;
+}
+ .navbar-default .navbar-toggle .icon-bar {
+     background-color: #fafafa;
+}
+ .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+     border-color: #fafafa;
+}
+ .navbar-default .navbar-link {
+     color: #fafafa;
+}
+ .navbar-default .navbar-link:hover {
+     color: #d0d6e2;
+}
+ @media (max-width: 767px) {
+     .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+         color: #fafafa;
+    }
+     .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+         color: #d0d6e2;
+    }
+     .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+         color: #d0d6e2;
+         background-color: #2e3951;
+    }
+     <!-- k52 buttons --> .btn-circle.btn-xl {
+         width: 70px;
+         height: 70px;
+         padding: 10px 16px;
+         border-radius: 35px;
+         font-size: 24px;
+         line-height: 1.33;
+    }
+     .btn-circle.btn-xs {
+         width: 20px;
+         height: 20px;
+         padding: 2px 0px;
+         border-radius: 10px;
+         font-size: 12px;
+         line-height: .3;
+         text-decoration : none;
+         color:white;
+    }
+     .btn-circle {
+         width: 30px;
+         height: 30px;
+         padding: 6px 0px;
+         border-radius: 15px;
+         text-align: center;
+         font-size: 12px;
+         line-height: 1.42857;
+    }
+     .btn:focus,.btn:active {
+         outline: none !important;
+         box-shadow: none;
+    }
+     .btn-k52blue {
+         color: #ffffff;
+         background-color: #1C2A48;
+         border-color: #130269;
+    }
+     .btn-k52blue:hover, .btn-k52blue:focus, .btn-k52blue:active, .btn-k52blue.active, .open .dropdown-toggle.btn-k52blue {
+         color: #ffffff;
+         background-color: #0074D9;
+         border-color: #130269;
+    }
+     .btn-k52blue:active, .btn-k52blue.active, .open .dropdown-toggle.btn-k52blue {
+         background-image: none;
+    }
+     .btn-k52blue.disabled, .btn-k52blue[disabled], fieldset[disabled] .btn-k52blue, .btn-k52blue.disabled:hover, .btn-k52blue[disabled]:hover, fieldset[disabled] .btn-k52blue:hover, .btn-k52blue.disabled:focus, .btn-k52blue[disabled]:focus, fieldset[disabled] .btn-k52blue:focus, .btn-k52blue.disabled:active, .btn-k52blue[disabled]:active, fieldset[disabled] .btn-k52blue:active, .btn-k52blue.disabled.active, .btn-k52blue[disabled].active, fieldset[disabled] .btn-k52blue.active {
+         background-color: #1C2A48;
+         border-color: #130269;
+    }
+     .btn-k52blue .badge {
+         color: #1C2A48;
+         background-color: #ffffff;
+    }
+     .btn-k52grey {
+         color: #ffffff;
+         background-color: #757575;
+         border-color: #424242;
+    }
+     .btn-k52grey:hover, .btn-k52grey:focus, .btn-k52grey:active, .btn-k52grey.active, .open .dropdown-toggle.btn-k52grey {
+         color: #ffffff;
+         background-color: #424242;
+         border-color: #424242;
+    }
+     .btn-k52grey:active, .btn-k52grey.active, .open .dropdown-toggle.btn-k52grey {
+         background-image: none;
+    }
+     .btn-k52grey.disabled, .btn-k52grey[disabled], fieldset[disabled] .btn-k52grey, .btn-k52grey.disabled:hover, .btn-k52grey[disabled]:hover, fieldset[disabled] .btn-k52grey:hover, .btn-k52grey.disabled:focus, .btn-k52grey[disabled]:focus, fieldset[disabled] .btn-k52grey:focus, .btn-k52grey.disabled:active, .btn-k52grey[disabled]:active, fieldset[disabled] .btn-k52grey:active, .btn-k52grey.disabled.active, .btn-k52grey[disabled].active, fieldset[disabled] .btn-k52grey.active {
+         background-color: #757575;
+         border-color: #424242;
+    }
+     .btn-k52grey .badge {
+         color: #757575;
+         background-color: #ffffff;
+    }
+     .redtext {
+         color: #C0D9AF;
+    }
+     affixed{
+         position:fixed;
+         top:50px;
+         .disableScroll{
+             overflow-y:hidden;
+             overflow-x:hidden;
+        }
+         #AZlist.dropdown-menu{
+             min-width: 325px;
+             max-width: 325px;
+        }
+         .list-inline {
+             padding-left: 0;
+             margin-left: 5px;
+             list-style: none;
+        }
+         .rightpadding {
+             padding-right: 15px;
+             padding-bottom: 25px;
+        }
+         .rightpadding20 {
+             padding-right: 20px;
+        }
